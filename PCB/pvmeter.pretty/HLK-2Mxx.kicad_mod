@@ -1,0 +1,272 @@
+(footprint "HLK-2Mxx"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ACDC-Converter, 2W, Hi-Link, HLK-2Mxx, THT (Script generated with StandardBox.py) (https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf)")
+	(tags "ACDC-Converter 2W THT Hi-Link board mount module")
+	(property "Reference" "PS1"
+		(at -1.475 -9.375 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83af269c-fc89-4aba-8f0d-e503f4fe9401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HLK-2M03"
+		(at 12.25 10.75 180)
+		(layer "F.Fab")
+		(uuid "eb8df596-e53a-4ebb-9e66-24354d3c43ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-2Mxx"
+		(at 21.45 -11.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd22643e-fa1e-4acd-9c6a-7654c9c44613")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "http"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cc8326b-515d-42ff-aa3c-dcc7804f5417")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "AC/DC board mount power module2W 3.3V"
+		(at 17.475 -14.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92d84609-5411-422e-8f20-1aaa6a27598b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.375 -8.575)
+		(end -0.375 -8.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46960af4-22fd-4ed9-bed8-41af2f4e47c2")
+	)
+	(fp_line
+		(start -3.375 -5.575)
+		(end -3.375 -8.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea340b5c-aae8-4f11-979e-b794a00e0856")
+	)
+	(fp_line
+		(start -3 -8.25)
+		(end -3 8.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe908baf-6885-483a-a6bc-bb9be44f0320")
+	)
+	(fp_line
+		(start -3 -8.25)
+		(end 27.5 -8.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d18ca117-2a0a-4253-b004-2304ca23c665")
+	)
+	(fp_line
+		(start -3 8.25)
+		(end 27.5 8.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b5bab54-82fc-49c7-b0a5-8ad1799f2eaa")
+	)
+	(fp_line
+		(start 27.5 -8.25)
+		(end 27.5 8.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95ce3230-a3e7-4871-bebb-476f307833be")
+	)
+	(fp_line
+		(start -3.2 -8.4)
+		(end -3.2 8.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86f6f516-5555-4805-88ec-4dce14ff6e1f")
+	)
+	(fp_line
+		(start -3.2 -8.4)
+		(end 27.75 -8.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4d796d9-470f-4a28-a788-81dfd6b93264")
+	)
+	(fp_line
+		(start -3.2 8.4)
+		(end 27.75 8.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3850512b-66cd-4f04-a628-4106f067104c")
+	)
+	(fp_line
+		(start 27.75 -8.4)
+		(end 27.75 8.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72a53090-e4db-4464-9ba1-024f7e173656")
+	)
+	(fp_line
+		(start -3 -7)
+		(end -2 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7efde3d1-276a-462c-a438-8ce09f351505")
+	)
+	(fp_line
+		(start -3 8.5)
+		(end -3 -7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bebf7585-d389-4871-9758-00eda14d71f3")
+	)
+	(fp_line
+		(start -2 -8)
+		(end 27.5 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38a410fb-e9e0-4289-921d-e9cf38161ec7")
+	)
+	(fp_line
+		(start 27.5 -8)
+		(end 27.5 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "604b5ac3-4f9b-4630-a2cb-d2669c9d9a45")
+	)
+	(fp_line
+		(start 27.5 8.5)
+		(end -3 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce557e54-735a-4809-bfcf-bad4b283f024")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.25 0.25 180)
+		(layer "F.Fab")
+		(uuid "6f97741b-73b3-4c4e-a1fc-7363cc860c3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "214221a1-da1a-47f8-9ad7-517c0268a07c")
+	)
+	(pad "2" thru_hole oval
+		(at 5 0)
+		(size 1.7 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d78670bb-b2ac-4e1f-8b0c-9a7392aac43e")
+	)
+	(pad "3" thru_hole oval
+		(at 21.5 0)
+		(size 1.7 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6474364-40ea-404a-8887-8e6c2a8e8776")
+	)
+	(pad "4" thru_hole oval
+		(at 24 0)
+		(size 1.7 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "446d3022-8b30-4d55-b6c5-81d84bb4ac4b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_Hi-Link_HLK-2Mxx.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

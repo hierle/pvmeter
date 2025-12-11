@@ -1,0 +1,259 @@
+(footprint "Altech_AK100_1x02_P5.00mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Altech AK100 serie terminal block (Script generated with StandardBox.py) (https://www.altechcorp.com/PDFS/PCBMETRC.PDF)")
+	(tags "Altech AK100 serie connector")
+	(property "Reference" "J2"
+		(at -0.35 -6.09 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "68285fcf-8808-4100-8525-5b803383841f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AC OUTPUT"
+		(at 2.5 5.25 0)
+		(layer "F.Fab")
+		(uuid "0ba5f636-0a1a-444f-bbd0-112c8e404ba6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77d4529a-1677-413c-b62d-72eb775200c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60711128-be72-4f4f-8c3e-1d65347c1e9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4568d508-1c5c-4819-ac00-bf742fe5c32f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.85 -5.35)
+		(end 0.15 -5.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6b138d4-086d-42af-865a-2bbb45f6f32d")
+	)
+	(fp_line
+		(start -2.85 -2.35)
+		(end -2.85 -5.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35c416c4-bf90-4d25-bb55-ef10e4086758")
+	)
+	(fp_line
+		(start -2.61 -5.11)
+		(end -2.61 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec606fc6-7036-4f34-ad1b-9ce5548feeb4")
+	)
+	(fp_line
+		(start -2.61 -5.11)
+		(end 7.61 -5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23a21ff5-4ac5-44c8-a2af-a1d904c6b3f3")
+	)
+	(fp_line
+		(start -2.61 4.11)
+		(end 7.61 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c0f595f-29fe-4473-a4d6-30253f261ad1")
+	)
+	(fp_line
+		(start 7.61 -5.11)
+		(end 7.61 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70fb8d4d-2356-4f4f-99ae-53699c3a149f")
+	)
+	(fp_line
+		(start -2.75 -5.25)
+		(end -2.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22acbd26-1f24-4bbe-a030-4aef84a54eb4")
+	)
+	(fp_line
+		(start -2.75 -5.25)
+		(end 7.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87dd8b1f-39a8-4839-b399-5a4bd928035e")
+	)
+	(fp_line
+		(start -2.75 4.25)
+		(end 7.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44c81121-0226-42be-aa71-5497bf764e36")
+	)
+	(fp_line
+		(start 7.75 -5.25)
+		(end 7.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ee367f5-7493-43ed-bb3e-ff1189048d9b")
+	)
+	(fp_line
+		(start -2.5 -4)
+		(end -1.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbdc1db7-bc7c-43d6-a933-752c5a683dc8")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5a9ec35-985e-4acf-bb32-e07038bd6cda")
+	)
+	(fp_line
+		(start -1.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5eddde1-b688-46a2-a9db-e924df8f3e2b")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0eb45d8b-f594-4f8d-b653-43e28ead0384")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e23752aa-cb46-4d77-925d-234fcdb199e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -0.5 0)
+		(layer "F.Fab")
+		(uuid "98822369-b2f1-48c1-b778-1ee140001ae0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5e5efba-f120-4d28-982a-863410434281")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12d7d771-fa66-4a49-9156-5a7fec1efbe6")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK100_1x02_P5.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

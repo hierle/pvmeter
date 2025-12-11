@@ -1,0 +1,53 @@
+#pragma once
+//
+// display.h
+//
+
+// display size
+#define TFT_WIDTH 320
+#define TFT_HEIGHT 240
+#define LOGO_WIFI_HEIGHT 24
+#define LOGO_WIFI_WIDTH  24
+
+// color definitions
+#define BLACK    0x0000
+#define BLUE     0x001F
+#define RED      0xF800
+#define GREEN    0x07E0
+#define CYAN     0x07FF
+#define MAGENTA  0xF81F
+#define YELLOW   0xFFE0
+#define ORANGE   0xFBE0
+#define WHITE    0xFFFF
+
+static const unsigned char PROGMEM logo_wifi[] =
+{ 0b00000000, 0b00000000, 0b00000000,
+  0b00000000, 0b00000000, 0b00000000,
+  0b00000000, 0b00000000, 0b00000000,
+  0b00000000, 0b00000000, 0b00000000,
+  0b00000000, 0b11111111, 0b00000000,
+  0b00000111, 0b11111111, 0b11000000,
+  0b00011111, 0b00000000, 0b11110000,
+  0b00111100, 0b00000000, 0b00011000,
+  0b01110000, 0b01111110, 0b00001100,
+  0b11100001, 0b11111111, 0b11000110,
+  0b01000111, 0b10000001, 0b11100010,
+  0b00001110, 0b00000000, 0b01110000,
+  0b00001100, 0b00111100, 0b00111000,
+  0b00000000, 0b11111111, 0b00000000,
+  0b00000001, 0b11000011, 0b10000000,
+  0b00000001, 0b10000000, 0b10000000,
+  0b00000000, 0b00000000, 0b00000000,
+  0b00000000, 0b00111100, 0b00000000,
+  0b00000000, 0b00111100, 0b00000000,
+  0b00000000, 0b00111100, 0b00000000,
+  0b00000000, 0b00011000, 0b00000000,
+  0b00000000, 0b00000000, 0b00000000,
+  0b00000000, 0b00000000, 0b00000000,
+  0b00000000, 0b00000000, 0b00000000 };
+
+extern void init_display(Adafruit_ST7789 &display);
+extern void display_date(Adafruit_ST7789 &display, tm now);
+extern void display_sensor(Adafruit_ST7789 &display, float sensor);
+extern void display_status(Adafruit_ST7789 &display, status_t status);
+

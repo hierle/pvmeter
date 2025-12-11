@@ -1,0 +1,177 @@
+(footprint "Solder-Terminal_1x02_P7.62"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Altech AK100 serie terminal block (Script generated with StandardBox.py) (https://www.altechcorp.com/PDFS/PCBMETRC.PDF)")
+	(tags "Altech AK100 serie connector")
+	(property "Reference" "J3"
+		(at -1.05 -2.55 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cb01db17-4707-4436-846b-2ddd1e17cbd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02"
+		(at 3.925 3.2 0)
+		(layer "F.Fab")
+		(uuid "ffc01eca-c62b-4098-b1b8-879463ad4ec6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca19e0a2-cb19-410a-9517-66e01d8ce8e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "connector 01x02"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9f30cad-5308-475b-a7e7-6f034e4484ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.675 1.709851)
+		(end 9.3 1.704925)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "decf9291-e407-480b-a9e4-f5f92a8e1944")
+	)
+	(fp_line
+		(start -1.669791 -1.704926)
+		(end -1.680209 1.704925)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57d5a572-3795-4eae-99c8-4c840079ca0b")
+	)
+	(fp_line
+		(start -1.669791 -1.704926)
+		(end 9.3 -1.704925)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed331d40-0c5f-4d4b-992a-6aa1b4bc0d75")
+	)
+	(fp_line
+		(start 9.3 -1.704925)
+		(end 9.3 1.704925)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c09b284a-2899-4ccd-adbb-d97d6d346239")
+	)
+	(fp_line
+		(start -1.925 -1.8625)
+		(end -1.925 1.8125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0003afc3-23ce-4e07-a87d-30ff157649f8")
+	)
+	(fp_line
+		(start -1.925 -1.8625)
+		(end 9.525 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48a3fe2f-2c6c-46d4-8949-01c94b5dbb76")
+	)
+	(fp_line
+		(start -1.925 1.8125)
+		(end 9.525 1.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "995204dc-d4d3-4e9d-b893-cd3d69ecd37b")
+	)
+	(fp_line
+		(start 9.525 -1.85)
+		(end 9.525 1.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "447c6159-719c-45e9-95b1-ff6174b354eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 -0.5 0)
+		(layer "F.Fab")
+		(uuid "4591432a-2c1f-41a5-a61f-6d29f976c7e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57aabfd0-aaf1-4048-925c-4078b7edc979")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de4bb659-138c-48ff-a900-675db6d5935c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK100_1x03_P5.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,197 @@
+(footprint "Transformer_TA12-100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Qingxian Zeming Langxi Electronic ZMCT103C current transformer 1000:1, https://5krorwxhmqqirik.leadongcdn.com/ZMCT103C+specification-aidirBqoKomRilSjpimnokp.pdf")
+	(tags "current transformer ZMCT")
+	(property "Reference" "TA12-100"
+		(at 6.75 -0.025 180)
+		(layer "F.SilkS")
+		(uuid "d07bc88c-7c77-40df-88ef-364bb550a3ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ZMCT103C"
+		(at 5.89 6.2 180)
+		(layer "F.Fab")
+		(uuid "039fd598-8bb1-4f65-af99-31c4f15f7d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Transformer_THT:Transformer_Zeming_ZMCT103C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c53a062-1f33-4067-a070-6a306b9479d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://5krorwxhmqqirik.leadongcdn.com/ZMCT103C+specification-aidirBqoKomRilSjpimnokp.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "591fcd9e-3df1-47ba-a55a-9beadb790c8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Qingxian Zeming Langxi Electronic ZMCT103C current transformer 1000:1 10A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f87fb72-0f80-47d7-91cb-02bdb5fc18e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.025 -4)
+		(end -0.725 -4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ad26cbb-b6af-45fc-b4c2-af30ddda30b5")
+	)
+	(fp_line
+		(start -2.025 -2.7)
+		(end -2.025 -4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d391b7c9-4cf0-4257-b553-906b3203db17")
+	)
+	(fp_rect
+		(start -2.25 -4.25)
+		(end 14.95 4.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4c7af252-2eb8-4866-9c6b-a9936f213982")
+	)
+	(fp_rect
+		(start -2.35 -4.35)
+		(end 15.05 4.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0a68aa04-f15a-4b56-b4b0-8a4ca754d9e3")
+	)
+	(fp_line
+		(start -3.2 -4.1)
+		(end -2.2 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "75421aee-b9d6-4998-9050-687c691f582e")
+	)
+	(fp_line
+		(start -3.2 5.1)
+		(end -3.2 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "12a2cd48-c03e-4d96-8c76-f95b58c38555")
+	)
+	(fp_line
+		(start -2.2 -5.1)
+		(end 15 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a3624f16-36d5-4c2a-a727-c25561d75b11")
+	)
+	(fp_line
+		(start 15 -5.1)
+		(end 15 5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4cb7306e-b790-4753-ac9d-4e282f127dc1")
+	)
+	(fp_line
+		(start 15 5.1)
+		(end -3.2 5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d291fb55-2523-4ef9-ad8d-ed18f2f850ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.89 0 180)
+		(layer "F.Fab")
+		(uuid "040027a3-f2cd-495f-b58d-8b932dc49ac9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b30851a-5067-4887-a2e6-702c9cd97e1f")
+	)
+	(pad "2" thru_hole circle
+		(at 12.75 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df86949d-623b-4012-bdbf-291b7d5ecb42")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Zeming_ZMCT103C.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

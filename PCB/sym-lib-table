@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pvmeter")(type "KiCad")(uri "${KIPRJMOD}/pvmeter.kicad_sym")(options "")(descr ""))
+)

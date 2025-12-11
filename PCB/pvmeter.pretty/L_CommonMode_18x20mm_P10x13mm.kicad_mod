@@ -1,0 +1,223 @@
+(footprint "L_CommonMode_18x20mm_P10x13mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "common mode, inductor, filter, https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl")
+	(tags "cmode choke dual")
+	(property "Reference" "FL1"
+		(at 0 -2.975 0)
+		(layer "F.SilkS")
+		(uuid "55819837-2de6-407d-9ea2-0a3773fdf53f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Filter_EMI_CommonMode"
+		(at 0.05 0.05 0)
+		(layer "F.SilkS")
+		(uuid "17ad3517-8d3c-4ae6-82c9-f59acbdaf60d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1015dfe1-da40-4ab4-9b33-e7cfe938ab2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "EMI 2-inductor common mode filter"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3506cfd-5777-4277-b64f-edd7ccccfe7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10 -8)
+		(end -10 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8ada8e9-9c46-4d94-bc34-dfb5f8b44884")
+	)
+	(fp_line
+		(start -10 9)
+		(end 10 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3c468a6-4cee-4b89-9a7e-8e1633b0bf3b")
+	)
+	(fp_line
+		(start -9 -9)
+		(end -10 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0f972de-1ccb-4b8f-b91f-50e3ca86889b")
+	)
+	(fp_line
+		(start 10 -9)
+		(end -9 -9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a165d5cf-95ad-4b4a-9b05-55a1e5b259c4")
+	)
+	(fp_line
+		(start 10 9)
+		(end 10 -9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffff2229-9e97-4db9-a11c-fafe5b076e1b")
+	)
+	(fp_rect
+		(start -10.425 -9.5)
+		(end 10.45 9.475)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b842b58f-806d-464c-934b-77e9ed54ede0")
+	)
+	(fp_line
+		(start -10.25 -8.25)
+		(end -9.25 -9.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2501e88-73f8-438a-9768-2178f96065c9")
+	)
+	(fp_line
+		(start -10.25 9.25)
+		(end -10.25 -8.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76994bf9-68f1-4791-9c63-3e3115263d5d")
+	)
+	(fp_line
+		(start -10.25 9.25)
+		(end 10.25 9.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90b38809-7e16-4e62-984a-3f79a4075778")
+	)
+	(fp_line
+		(start -9.25 -9.25)
+		(end 10.25 -9.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae3f11c2-ede3-4f20-a098-04eb202739d2")
+	)
+	(fp_line
+		(start 10.25 -9.25)
+		(end 10.25 9.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4c26236-e67e-4e6f-9382-ae28ca44afc0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 1.55 0)
+		(layer "F.Fab")
+		(uuid "004671c8-2764-46ad-82c8-f7ce4cc62db4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 6.5 -5)
+		(size 3.1 3.1)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02beae1f-7ce4-4935-aaec-4baedb290837")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 5)
+		(size 3.1 3.1)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f4ae860-9824-43a9-8ca1-7a62bf978384")
+	)
+	(pad "3" thru_hole rect
+		(at -6.5 -5)
+		(size 3.1 3.1)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "298e35cd-8d51-4f7d-bafb-6e85069e9371")
+	)
+	(pad "4" thru_hole circle
+		(at -6.5 5)
+		(size 3.1 3.1)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d6bc3f2-3552-44d4-b9a0-919a580e2de7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_PulseElectronics_PH9455xxx6NL_2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
